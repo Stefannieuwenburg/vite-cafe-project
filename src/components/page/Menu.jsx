@@ -1,4 +1,4 @@
-function Menu() {
+export default function Menu(props) {
   return (
       <>
           <div class="" id="menu">
@@ -53,4 +53,4 @@ function Menu() {
   );
 }
 
-export default Menu;
+

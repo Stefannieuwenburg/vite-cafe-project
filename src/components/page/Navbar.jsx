@@ -1,9 +1,9 @@
 import { Link,Outlet } from "react-router-dom";
 import { FaBars } from "react-icons/fa";
 import { useState, useEffect } from "react";
-import "./Navbar.css";
+import "../style/Navbar.css";
 
-function Navbar() {
+export default function Navbar(props) {
     // dit is de toggleMenu functie
     const [toggleMenu, setToggleMenu] = useState(false);
     const [screenWidth, setScreenWidth] = useState(window.innerWidth);
@@ -26,7 +26,6 @@ function Navbar() {
     return (
         <div>
             <nav className="navbar-container">
-                {/* 2e deel van het toggelmenu na 500px klapt die om naar navbar*/}
                 {(toggleMenu || screenWidth > 500) && (
                     <ul onClick={toggleNav} className="list">
                         <li className="items">
@@ -51,10 +50,7 @@ function Navbar() {
                         </li>
                     </ul>
                 )}
-                <FaBars
-                    onClick={toggleNav}
-                    className="fabars"
-                ></FaBars>
+                <FaBars onClick={toggleNav} className="fabars"></FaBars>
             </nav>
             <>''</>
             <Outlet />
@@ -62,4 +58,4 @@ function Navbar() {
     );
 }
 
-export default Navbar;
+

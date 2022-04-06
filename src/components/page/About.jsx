@@ -1,4 +1,4 @@
-function About() {
+export default function About(props) {
   return (
       <>
           <div class="" id="about">
@@ -15,9 +15,13 @@ function About() {
                   fresh made-to-order breakfast and lunch sandwiches, as well as
                   a selection of sides and salads and other good stuff.
               </p>
+              <img
+                  src={"https://www.ivyboarding.com/w3template/w3images/coffeehouse2.jpg"
+                  }
+                  alt="home-pic"
+              ></img>
           </div>
       </>
   );
 }
 
-export default About;

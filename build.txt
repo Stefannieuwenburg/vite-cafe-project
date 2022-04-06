@@ -7,3 +7,6 @@ na kijken waarom </nav>
 en site hoogte moet zakken pagina
 
 image: '/images/1.png',
+
+
+      

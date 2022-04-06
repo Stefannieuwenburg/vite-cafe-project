@@ -5,10 +5,10 @@ import ReactDOM from 'react-dom';
 import './main.css';
 import App from './App';
 
-import Home from "./page/Home";
-import About from "./page/About";
-import Menu from "./page/Menu";
-import Where from "./page/Where";
+import Home from "./components/page/Home";
+import About from "./components/page/About";
+import Menu from "./components/page/Menu";
+import Where from "./components/page/Where";
 
 ReactDOM.render(
     <BrowserRouter>
