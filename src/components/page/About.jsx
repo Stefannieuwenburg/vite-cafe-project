@@ -1,8 +1,8 @@
 export default function About(props) {
   return (
       <>
-          <div class="" id="about">
-              <h1 class="">ABOUT THE CAFE</h1>
+          <div className="main_div" id="about">
+              <h1 className="main_text">ABOUT THE CAFE</h1>
               <p>
                   The Cafe was founded in blabla by Mr. Smith in lorem ipsum
                   dolor sit amet, consectetur adipiscing elit, sed do eiusmod

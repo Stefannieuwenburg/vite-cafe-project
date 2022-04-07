@@ -29,7 +29,7 @@ export default function Navbar(props) {
                 {(toggleMenu || screenWidth > 500) && (
                     <ul onClick={toggleNav} className="list">
                         <li className="items">
-                            <Link className="link" to="/home">
+                            <Link className="link" to="/">
                                 Home
                             </Link>
                         </li>
@@ -52,7 +52,9 @@ export default function Navbar(props) {
                 )}
                 <FaBars onClick={toggleNav} className="fabars"></FaBars>
             </nav>
-            <>''</>
+            <br />
+            <br />
+            <br/>
             <Outlet />
         </div>
     );

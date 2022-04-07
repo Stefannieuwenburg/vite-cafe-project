@@ -1,8 +1,8 @@
 export default function Home(props) {
     return (
         <>
-            <div class="" id="">
-                <h1 class="">THE CAFE</h1>
+            <div className="main_div" id="home">
+                <h1 className="main_text">THE CAFE</h1>
                 <p>
                     The Cafe lorem ipsum dolor sit amet, consectetur adipiscing
                     elit, sed do eiusmod tempor incididunt ut labore et dolore
@@ -15,13 +15,12 @@ export default function Home(props) {
                     fresh made-to-order breakfast and lunch sandwiches, as well
                     as a selection of sides and salads and other good stuff.
                 </p>
-                <div class="">
+                <div>
                     <p>
                         <i>"" Fresh is the new sweet.</i>
                     </p>
                     <p>Chef, Coffeeist and Owner: Liam Brown</p>
                 </div>
-                
                 <img src={"https://www.ivyboarding.com/w3template/w3images/coffeeshop.jpg"} alt="home-pic"></img>
             </div>
         </>

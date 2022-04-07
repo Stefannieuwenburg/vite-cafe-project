@@ -1,8 +1,8 @@
 export default function Where(props) {
 
     return (
-        <>
-            <h1>MAP</h1>
+        <div className="main_div" id="map">
+            <h1 className="main_text">MAP</h1>
             <p>You Can find us at this address ant this location.</p>
             <div>
                 <img
@@ -11,10 +11,10 @@ export default function Where(props) {
                 ></img>
             </div>
             <p>
-                <span class="tag">FYI!</span> We offer full-service catering for
-                any event, large or small. We understand your needs and we will
-                cater the food to satisfy the biggerst criteria of them all,
-                both look and taste.
+                <span>FYI!</span> We offer full-service catering for any event,
+                large or small. We understand your needs and we will cater the
+                food to satisfy the biggerst criteria of them all, both look and
+                taste.
             </p>
             <br />
             <p>
@@ -23,7 +23,7 @@ export default function Where(props) {
             <p>
                 <strong>Address:</strong> 15 Adr street, 5015, NY
             </p>
-        </>
+        </div>
     );
 }
 
