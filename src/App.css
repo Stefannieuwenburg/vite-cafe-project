@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400|Inconsolata:400');
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+h1{
+  background-color: rgb(255,255,255);
+}
+
+.home,
+.about,
+.menu,
+.location {
+  min-height: 70vh;
+  text-align: center;
+}
+.footer {
+  max-height: 20vh;
+  text-align: center;
+}
+
+
+.logo{
+  width: 100px;
+  height: 55px;
+  object-fit: cover;
+  margin-right: 700px;
+  border-top-right-radius: 50px;
+  border-top-left-radius: 50px;
+}
+.map_img{
+  width: 800px;
+  height: 448px;
+  object-fit: cover;
+}
+.about_img{
+  width: 800px;
+  height: 450px;
+  object-fit: cover;
+}
+
+
+
+nav{
+  height: 64px;
+  display:flex;
+  justify-content:space-evenly;
+  align-items: center;
+  padding:0 1rem;
+  background-color:rgb(0, 0, 0);
+ 
+}
+
+.nav_links{
+  display:flex;
+  justify-content:space-around;
+  width: 160%;
+  text-transform: uppercase;
+}
+
+.nav_links a{
+  color: rgb(195, 195, 195);
+  letter-spacing: 1.2px;
+  font-weight:bold;
+  font-size:15px;
+  text-decoration-line: none;
+  font-family: Montserrat,sans-serif;
+}
+.nav_links a:hover{
+  color:rgb(255, 255, 255);
+}
+
+.sticky{
+  position: sticky;
+  top:0;
+}
+
+
+.home{
+  background-color: rgb(157, 80, 80);
+}
+.about{
+  background-color:rgb(157, 149, 80)
+}
+.menu{
+  background-color: rgb(157,2,4)
+}
+.location{
+  background-color: rgb(137, 8, 157)
+}
+.footer{
+  color: rgb(0, 0, 0);
+  background-color: rgb(0, 0, 0)
+}
+.footer p{
+  background-color: rgb(255, 250, 250);
+}
+
+

@@ -1,23 +1,27 @@
-const ImgData = [
+
+export const links = [
     {
-        id: "1",
-        name: "coffee",
-        image: "https://www.ivyboarding.com/w3template/w3images/coffeehouse2.jpg",
+        id: 1,
+        text: "Home",
+        url: "#home",
+    },
+
+    {
+        id: 2,
+        text: "About",
+        url: "#about",
     },
     {
-        id: "2",
-        name: "shop.jpg",
-        image: "https://www.ivyboarding.com/w3template/w3images/coffeeshop.jpg",
+        id: 3,
+        text: "Menu",
+        url: "#menu",
     },
     {
-        id: "3",
-        name: "map",
-        image: "https://www.w3schools.com/w3images/map.jpg",
+        id: 4,
+        text: "Location",
+        url: "#location",
     },
 ];
-
-export default ImgData;
-
 
 
 
