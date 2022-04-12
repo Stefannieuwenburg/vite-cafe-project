@@ -1,4 +1,6 @@
 import { links } from './components/Data/Data'
+import { AiOutlineGithub } from "react-icons/ai";
+import { IoLogoLinkedin } from "react-icons/io";
 import ShopLogo from "./components/image/shop_logo.png"
 import "./App.css"
 
@@ -47,7 +49,7 @@ export default function App() {
                         do eiusmod tempor incididunt ut labore et dolore magna
                         <br />
                         aliqua. Ut enim ad minim veniam, quis nostrud
-                        <br/>
+                        <br />
                         exercitation ullamco laboris nisi ut aliquip ex ea
                         commodo consequat.
                     </p>
@@ -59,7 +61,8 @@ export default function App() {
                         and other good stuff.
                     </p>
                     <br />
-                    <img className="about_img"
+                    <img
+                        className="about_img"
                         src={
                             "https://www.ivyboarding.com/w3template/w3images/coffeehouse2.jpg"
                         }
@@ -130,7 +133,8 @@ export default function App() {
                     <p>You Can find us at this address ant this location.</p>
                     <br />
                     <div>
-                        <img className="map_img"
+                        <img
+                            className="map_img"
                             src={"https://www.w3schools.com/w3images/map.jpg"}
                             alt="map-pic"
                         ></img>
@@ -153,10 +157,21 @@ export default function App() {
                 </div>
             </section>
             <section className="footer" id="footer">
-                <h1>footer</h1>
-                <br/>
-                <p>copyricht Stefan Nieuwenburg</p>
-                <br/>
+                <h3>Volg Mij</h3>
+                <p className="icon_footer">
+                    <a href="https://github.com/Stefannieuwenburg">
+                        <AiOutlineGithub />
+                    </a>
+                    <a href="https://www.linkedin.com/in/stefan-nieuwenburg-3030a1213/">
+                        <IoLogoLinkedin />
+                    </a>
+                </p>
+
+                <p>
+                    © Copyright 2022 | Ontwikkeling door Stefan Nieuwenburg
+                    Services | Alle rechten voorbehouden.
+                </p>
+                <br />
             </section>
         </main>
     );

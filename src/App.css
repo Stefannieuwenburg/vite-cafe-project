@@ -9,7 +9,7 @@
 html{
   scroll-behavior: smooth;
 }
-h1{
+h1,h3{
   background-color: rgb(255,255,255);
 }
 
@@ -23,6 +23,12 @@ h1{
 .footer {
   max-height: 20vh;
   text-align: center;
+}
+.icon_footer {
+  font-size: 30px;
+}
+.icon_footer a:hover{
+  color: rgb(97, 72, 40);
 }
 
 
