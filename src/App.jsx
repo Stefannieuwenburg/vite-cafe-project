@@ -166,7 +166,6 @@ export default function App() {
                         <IoLogoLinkedin />
                     </a>
                 </p>
-
                 <p>
                     © Copyright 2022 | Ontwikkeling door Stefan Nieuwenburg
                     Services | Alle rechten voorbehouden.

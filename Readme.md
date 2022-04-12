@@ -5,13 +5,13 @@ smooth scrolling project
 - React-Vite
 - smooth scrolling
 - navbar scrolling
-- Context APIs
+- Data APIs
 - GitHub
 - npm i @vitejs/plugin-react
 - npm install react-icons 
+- @media mobiel
 - 
-- useState 
-- useEffect
+- 
 - 
 
 
